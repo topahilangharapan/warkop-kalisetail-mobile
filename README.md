@@ -285,7 +285,7 @@
 
     1. MyHomePage (StatelessWidget):Ini adalah widget utama yang mewakili halaman beranda aplikasi. Ini mengatur tampilan utama aplikasi dan termasuk dalam Scaffold.
     2. Scaffold: Ini adalah widget yang memberikan kerangka dasar untuk halaman aplikasi. Ini mencakup AppBar dan body serta berbagai atribut lainnya yang digunakan untuk mengatur tampilan.
-    3. AppBar: Widget ini adalah bagian dari Scaffold dan menyediakan bilah atas (app bar) yang berisi judul aplikasi.
+    3. AppBar: Widget ini adalah bagian dari Scaffold dan menyediakan bagian atas (app bar) yang berisi judul aplikasi.
     4. Column: Digunakan untuk menampilkan sejumlah widget children secara vertikal, termasuk teks "Kalisetail +272m" dan GridView.
     5. GridView.count: Ini adalah widget untuk menampilkan grid layout yang berisi sejumlah item (cards). Diatur untuk menampilkan grid 3 kolom.
     6. WarkopCard (StatelessWidget): Ini adalah widget yang mewakili kartu (card) individual dalam grid. Setiap kartu berisi ikon dan teks, dan dapat ditekan untuk menampilkan SnackBar.
