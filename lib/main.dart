@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:warkop_kalisetail/menu.dart';
+import 'package:warkop_kalisetail/screens/menu.dart';
 
 void main() {
   runApp(const MyApp());
