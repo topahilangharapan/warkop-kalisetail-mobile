@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:warkop_kalisetail/screens/menu.dart';
 import 'package:warkop_kalisetail/screens/warkop_form.dart';
+import 'package:warkop_kalisetail/screens/list_product.dart';
 // TODO: Impor halaman ShopFormPage jika sudah dibuat
 
 class LeftDrawer extends StatelessWidget {
@@ -67,6 +68,17 @@ class LeftDrawer extends StatelessWidget {
                   MaterialPageRoute(
                     builder: (context) => WarkopFormPage(),
                   ));
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.shopping_basket),
+            title: const Text('Daftar Produk'),
+            onTap: () {
+              // Route menu ke halaman produk
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const ProductPage()),
+              );
             },
           ),
         ],
